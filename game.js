@@ -22,10 +22,10 @@ function roll () {
 }
 
 function pass () {
-	if (curr.name = "Player1")
-		curr = p2;
-	else
-		curr = p1;
+	if (curr.name == "Player1"){
+		curr = p2;}
+	else{
+		curr = p1;}
 	document.getElementById("Turn").innerHTML = curr.name;
 }
 
